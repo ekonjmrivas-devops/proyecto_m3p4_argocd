@@ -10,7 +10,7 @@ spec:
   sourceRepos:
     # TODO ejercicio 3:
     # Sustituir por la URL del repositorio Git que actua como fuente de verdad.
-    - https://github.com/REPLACE_ME/REPLACE_ME.git
+    - https://github.com/ekonjmrivas-devops/proyecto_m3p4_argocd.git
   destinations:
     - namespace: database
       server: https://kubernetes.default.svc

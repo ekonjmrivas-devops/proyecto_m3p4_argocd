@@ -6,7 +6,7 @@ metadata:
 spec:
   project: training-project
   source:
-    repoURL: https://github.com/REPLACE_ME/REPLACE_ME.git
+    repoURL: https://github.com/ekonjmrivas-devops/proyecto_m3p4_argocd.git
     targetRevision: HEAD
     # TODO ejercicio 3:
     # Ajustar al path exacto del componente Python.

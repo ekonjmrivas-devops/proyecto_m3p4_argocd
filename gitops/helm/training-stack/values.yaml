@@ -4,19 +4,19 @@
 namespace: apps
 
 webui:
-  image: REPLACE_ME_WEBUI_IMAGE
+  image: jmrivasdevops/training-webui:0.1
   replicaCount: 1
   servicePort: 80
   containerPort: 80
 
 backendJava:
-  image: REPLACE_ME_BACKEND_JAVA_IMAGE
+  image: jmrivasdevops/training-java-api:0.1
   replicaCount: 1
   servicePort: 8080
   containerPort: 8080
 
 backendPython:
-  image: REPLACE_ME_BACKEND_PYTHON_IMAGE
+  image: jmrivasdevops/training-python-api:0.1
   replicaCount: 1
   servicePort: 5000
   containerPort: 5000
