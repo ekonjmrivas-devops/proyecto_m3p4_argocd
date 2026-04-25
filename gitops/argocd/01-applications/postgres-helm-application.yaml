@@ -8,9 +8,9 @@ spec:
   source:
     # Ejercicio 5:
     # Ejemplo de despliegue GitOps usando un chart Helm oficial.
-    repoURL: https://charts.bitnami.com/bitnami
+    repoURL: registry-1.docker.io/bitnamicharts
     chart: postgresql
-    targetRevision: 15.5.23
+    targetRevision: 18.6.2
     helm:
       releaseName: training-postgresql
       values: |
