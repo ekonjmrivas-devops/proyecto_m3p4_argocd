@@ -17,5 +17,8 @@ spec:
   syncPolicy:
     # TODO ejercicio 3:
     # Empezar en manual y valorar despues si activar auto-sync.
+    automated:
+      prune: true
+      selfHeal: true
     syncOptions:
       - CreateNamespace=true
